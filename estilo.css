@@ -1,0 +1,17 @@
+.encabezado{
+    padding: 25px;
+        background-color: navajowhite;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+.centrar {
+    padding: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+#campoUser{
+    padding: 10px;
+}
