@@ -23,6 +23,11 @@ header .encabezado{
     font-size: 2.1em;
     text-align: center;
 }
+h2{
+    font-size: 2em;
+    color: black;
+}
+
 .centrar{
 background-image: url(../imagenes/fondo.png),linear-gradient(rgb(190, 153, 153), #E9C46A);
 background-position: center center;
@@ -39,4 +44,28 @@ color: #000000;
 form{
     display: inline-block;
     text-align: center;
+}
+#jugar{
+    text-decoration: none;
+font-size: 1.5em;
+font-weight: bold;
+padding: 10px 30px;
+margin: 5px 25px;
+border-radius: 10px;
+border: 2px solid rgba(0,0,0,0.5);
+box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+color: white;
+background-color: #E76F51;
+}
+.nombreUser{
+    text-align: left;
+font-size: 20px;}
+
+@media (min-width: 700px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+
 }
