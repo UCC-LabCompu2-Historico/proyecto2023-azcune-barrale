@@ -58,7 +58,10 @@ h2{
 h3{
     font-size: 2em;
 }
-
+.fondoTexto{
+    background-color: white;
+    opacity: 75%;
+}
 p{
     font-size: 1.25em;
 }
@@ -67,7 +70,7 @@ ul{
     list-style: none;
 }
 #presentacion{
-    background-image: url(../imagenes/fondo.png),linear-gradient(rgb(190, 153, 153), #E9C46A);
+    background-image: url(../imagenes/fondo.jpg),linear-gradient(rgb(190, 153, 153), #E9C46A);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
