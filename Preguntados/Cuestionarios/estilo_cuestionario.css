@@ -91,6 +91,9 @@ section{
 .preg3{
     background-color: darkred;
 }
+.preg4{
+    background-color: darkgreen;
+}
 
 
 header{
@@ -110,4 +113,9 @@ header .encabezado{
     padding: 35px 30px;
     font-size: 2.1em;
     text-align: center;
+}
+
+.boton:hover{
+    background-color: #ff0000;
+    transform: scale(1.1);
 }
