@@ -23,13 +23,20 @@ header .encabezado{
     font-size: 2.1em;
     text-align: center;
 }
+p{
+    font-size: 1.25em;
+}
 h2{
-    font-size: 2em;
+    font-size: 3.5em;
     color: black;
+}
+.fondoTexto{
+    background-color: white;
+    opacity: 85%;
 }
 
 .centrar{
-background-image: url(../imagenes/fondo.png),linear-gradient(rgb(190, 153, 153), #E9C46A);
+background-image: url(../imagenes/fondo.jpg),linear-gradient(rgb(190, 153, 153), #E9C46A);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
