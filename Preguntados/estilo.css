@@ -74,18 +74,25 @@ form {
     background-color: #E76F51;
 }
 
+#jugar:hover {
+    background-color: #E9C46A;
+    cursor: pointer;
+}
+
 .nombreUser {
     text-align: left;
     font-size: 20px;
 }
-.contenedor{
+
+.contenedor {
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #264653;
     padding: 10px;
 }
-.contenedor canvas{
+
+.contenedor canvas {
     background-color: #1e7c72;
 
 }
@@ -96,6 +103,4 @@ form {
         width: 100%;
         z-index: 100;
     }
-
-
 }

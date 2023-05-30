@@ -38,7 +38,7 @@ header nav {
     z-index: 1;
 }
 
-a {
+#botones {
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
@@ -51,10 +51,11 @@ a {
     background-color: #E76F51;
 }
 
-img{
+img {
     height: 25vh;
     object-fit: cover;
 }
+
 header a {
     color: #000000;
     text-decoration: none;
@@ -115,7 +116,7 @@ form {
     text-align: center;
 }
 
-a:hover {
+#botones:hover {
     background-color: #E9C46A;
     cursor: pointer;
 }
