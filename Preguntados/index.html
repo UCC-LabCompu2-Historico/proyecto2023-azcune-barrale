@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="funciones.js"></script>
+
 </head>
 
 <body>
@@ -27,20 +29,23 @@
 <section id="username">
 
     <div class="centrar">
-        <form>
-            <label for="usuario1"></label>
-            <h2><span class="fondoTexto">Ingrese su nombre de usuario y <br>pulse el botón JUGAR </span></h2>
+        <form action="temas.html" id="formulario">
+            <h2><span class="fondoTexto">Ingrese su nombre de usuario y <br>pulse el botón ENVIAR </span></h2>
 
-            <input class="nombreUser" type="text" name="usuario" id="usuario1" placeholder="User4534">
-        </form>
-        <form action="temas.html">
-            <button id="jugar"> JUGAR</button>
+            <label for="usuario1"></label>
+            <input class="nombreUser" type="text" name="usuario" id="usuario1" placeholder="User4534"> <br>
+
+            <input type="submit" id="jugar">
         </form>
 
     </div>
 </section>
 <div class="contenedor">
-    <canvas id="canvas" width="300" height="300"></canvas>
+    <canvas id="canvas1" width="400px" height="200px" onmousemove="textoCanvas()">
+    </canvas>
+
 </div>
+
+
 </body>
 </html>

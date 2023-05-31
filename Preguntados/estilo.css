@@ -92,10 +92,10 @@ form {
     padding: 10px;
 }
 
-.contenedor canvas {
+#canvas1 {
     background-color: #1e7c72;
-
 }
+
 
 @media (min-width: 700px) {
     header {
