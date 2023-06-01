@@ -2,8 +2,8 @@ let textoCanvas = () => {
     const canvas = document.getElementById("canvas1");
     const ctx = canvas.getContext('2d');
 
-    ctx.font = "20px arial"
-    ctx.fillText("Buena suerte en el juego :)", 100, 100);
+    ctx.font = "18px Arial"
+    ctx.fillText("Primero: suerte en el juego, segundo Francia.", 20, 100);
 }
 
 
