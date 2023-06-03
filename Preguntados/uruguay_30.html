@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="funciones.js"></script>
+
 </head>
 <body>
 
@@ -24,322 +26,118 @@
 </header>
 
 <main>
-    <section class="preg1">
-        <div class="contenedor">
-            <h2 class="pregunta">¿La primera fecha se jugó el 12 de julio?</h2>
-            <div>
-                <a href="#caja1_1" class="boton">
-                    Verdadero
-                </a>
-                <a href="#caja1_2" class="boton">
-                    Falso
-                </a>
-            </div>
+    <section class="preguntas">
+        <div class="pregunta1">
 
-            <div class="caja" id="caja1_1">
-                <div class="caja_interior">
-                    <h3>Verdadero</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta2" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            ¿La primera fecha se jugó el 12 de julio?
+            <br>
+            <label for="preg1_1">
+                <input type="radio" id="preg1_1" name="1" value="incorrecta"> Verdadero <br>
+            </label>
 
-            <div class="caja" id="caja1_2">
-                <div class="caja_interior">
-                    <h3>Falso</h3>
-                    <p>
-                        Respuesta Correcta!
-                    </p>
-                    <a href="#pregunta2" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg1_2">
+            <input type="radio" id="preg1_2" name="1" value="correcta"> Falso <br>
+            </label>
         </div>
 
-    </section>
-    <section class="preg2" id="pregunta2">
-        <div class="contenedor">
-            <h2 class="pregunta">¿Cuál seleccionado salió campeón?</h2>
-            <div>
-                <a href="#caja2_1" class="boton">
-                    Uruguay
-                </a>
-                <a href="#caja2_2" class="boton">
-                    Francia
-                </a>
-                <a href="#caja2_3" class="boton">
-                    Argentina
-                </a>
-                <a href="#caja2_4" class="boton">
-                    Yugoslavia
-                </a>
-            </div>
-            <div class="caja" id="caja2_1">
-                <div class="caja_interior">
-                    <h3>Uruguay</h3>
-                    <p>
-                        Respuesta correcta!
-                    </p>
+        <div class="pregunta1">
+            ¿Cuál seleccionado salió campeón? <br>
 
-                    <a href="#pregunta3" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg2_1">
+                <input type="radio" id="preg2_1" name="2" value="correcta"> Uruguay <br>
+            </label>
 
-            <div class="caja" id="caja2_2">
-                <div class="caja_interior">
-                    <h3>Francia</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta3" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg2_2">
+                <input type="radio" id="preg2_2" name="2" value="incorrecta"> Francia <br>
+            </label>
 
-            <div class="caja" id="caja2_3">
-                <div class="caja_interior">
-                    <h3>Argentina</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta3" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg2_3">
+                <input type="radio" id="preg2_3" name="2" value="incorrecta"> Argentina <br>
+            </label>
 
-            <div class="caja" id="caja2_4">
-                <div class="caja_interior">
-                    <h3>Yugoslavia</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta3" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg2_4">
+                <input type="radio" id="preg2_4" name="2" value="incorrecta"> Yugoslavia <br>
+            </label>
+
+
+
         </div>
-    </section>
-    <section class="preg3" id="pregunta3">
-        <div class="contenedor">
-            <h2 class="pregunta">¿Cuántos países se presentaron?</h2>
-            <div>
-                <a href="#caja3_1" class="boton">
-                    10
-                </a>
-                <a href="#caja3_2" class="boton">
-                    11
-                </a>
-                <a href="#caja3_3" class="boton">
-                    13
-                </a>
-                <a href="#caja3_4" class="boton">
-                    16
-                </a>
-            </div>
-            <div class="caja" id="caja3_1">
-                <div class="caja_interior">
-                    <h3>10</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
 
-                    <a href="#pregunta4" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+        <div class="pregunta1">
+            ¿Cuántos países se presentaron?
+            <br>
 
-            <div class="caja" id="caja3_2">
-                <div class="caja_interior">
-                    <h3>11</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta4" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg3_1">
+                <input type="radio" id="preg3_1" name="3" value="incorrecta"> 10 <br>
+            </label>
 
-            <div class="caja" id="caja3_3">
-                <div class="caja_interior">
-                    <h3>13</h3>
-                    <p>
-                        Respuesta correcta!
-                    </p>
-                    <a href="#pregunta4" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg3_2">
+                <input type="radio" id="preg3_2" name="3" value="incorrecta"> 11 <br>
+            </label>
 
-            <div class="caja" id="caja3_4">
-                <div class="caja_interior">
-                    <h3>16</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta4" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg3_3">
+                <input type="radio" id="preg3_3" name="3" value="correcta"> 13 <br>
+            </label>
+
+            <label for="preg3_4">
+                <input type="radio" id="preg3_4" name="3" value="incorrecta"> 16 <br>
+            </label>
+
+
         </div>
-    </section>
-    <section class="preg4" id="pregunta4">
-        <div class="contenedor">
-            <h2 class="pregunta">¿En qué estadio se jugó la final?</h2>
-            <div>
-                <a href="#caja4_1" class="boton">
-                    Estadio Gran Parque Central
-                </a>
-                <a href="#caja4_2" class="boton">
-                    Estadio Pocitos
-                </a>
-                <a href="#caja4_3" class="boton">
-                    La Bombonera
-                </a>
-                <a href="#caja4_4" class="boton">
-                    Estadio Centenario
-                </a>
-            </div>
-            <div class="caja" id="caja4_1">
-                <div class="caja_interior">
-                    <h3>Estadio Gran Parque Central</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta5" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
 
-            <div class="caja" id="caja4_2">
-                <div class="caja_interior">
-                    <h3>Estadio Pocitos</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta5" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+        <div class="pregunta1">
+            ¿En qué estadio se jugó la final?
+            <br>
 
-            <div class="caja" id="caja4_3">
-                <div class="caja_interior">
-                    <h3>La Bombonera</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta5" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg4_1">
+                <input type="radio" id="preg4_1" name="4" value="incorrecta"> Estadio Gran Parque Central <br>
+            </label>
 
-            <div class="caja" id="caja4_4">
-                <div class="caja_interior">
-                    <h3>Estadio Centenario</h3>
-                    <p>
-                        Respuesta Correcta!
-                    </p>
-                    <a href="#pregunta5" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg4_2">
+                <input type="radio" id="preg4_2" name="4" value="correcta"> Estadio Pocitos <br>
+            </label>
+
+            <label for="preg4_3">
+                <input type="radio" id="preg4_3" name="4" value="incorrecta"> La Bombonera <br>
+            </label>
+
+            <label for="preg4_4">
+                <input type="radio" id="preg4_4" name="4" value="incorrecta"> Estadio Centenario
+            </label>
+            <br>
+
         </div>
-    </section>
-    <section class="preg5" id="pregunta5">
-        <div class="contenedor">
-            <h2 class="pregunta">¿Quién fue el máximo goleador?</h2>
-            <div>
-                <a href="#caja5_1" class="boton">
-                    Pedro Cea
-                </a>
-                <a href="#caja5_2" class="boton">
-                    Bert Patenaude
-                </a>
-                <a href="#caja5_3" class="boton">
-                    Valentin Barco
-                </a>
-                <a href="#caja5_4" class="boton">
-                    Guillermo Stabile
-                </a>
-            </div>
-            <div class="caja" id="caja5_1">
-                <div class="caja_interior">
-                    <h3>Pedro Cea</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="temas.html" class="boton">
-                        Elegir otra categoría
-                    </a>
-                    <a href="#" class="boton">
-                        Comenzar de vuelta
-                    </a>
-                </div>
-            </div>
 
-            <div class="caja" id="caja5_2">
-                <div class="caja_interior">
-                    <h3>Bert Patenaude</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="temas.html" class="boton">
-                        Elegir otra categoría
-                    </a>
-                    <a href="#" class="boton">
-                        Comenzar de vuelta
-                    </a>
-                </div>
-            </div>
+        <div class="pregunta1">
+            ¿Quién fue el máximo goleador? <br>
 
-            <div class="caja" id="caja5_3">
-                <div class="caja_interior">
-                    <h3>Valentin Barco</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="temas.html" class="boton">
-                        Elegir otra categoría
-                    </a>
-                    <a href="#" class="boton">
-                        Comenzar de vuelta
-                    </a>
-                </div>
-            </div>
+            <label for="preg5_1">
+                <input type="radio" id="preg5_1" name="5" value="incorrecta"> Pedro Cea <br>
+            </label>
 
-            <div class="caja" id="caja5_4">
-                <div class="caja_interior">
-                    <h3>Guillermo Stabile</h3>
-                    <p>
-                        Respuesta Correcta!
-                    </p>
-                    <a href="temas.html" class="boton">
-                        Elegir otra categoría
-                    </a>
-                    <a href="#" class="boton">
-                        Comenzar de vuelta
-                    </a>
-                </div>
-            </div>
+            <label for="preg5_2">
+                <input type="radio" id="preg5_2" name="5" value="correcta"> Bert Patenaude <br>
+            </label>
+
+            <label for="preg5_3">
+                <input type="radio" id="preg5_3" name="5" value="incorrecta"> Valentin Barco <br>
+            </label>
+
+            <label for="preg5_4">
+                <input type="radio" id="preg5_4" name="5" value="incorrecta"> Guillermo Stabile <br>
+            </label>
+
+
         </div>
+
+        <button class="boton" onclick="cantidadCorrectas3()"> CORREGIR</button>
+
+        <form action="temas.html">
+            <button class="boton">Volver</button>
+        </form>
     </section>
 </main>
+
 </body>
 </html>

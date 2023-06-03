@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="funciones.js"></script>
+
 </head>
 <body>
 
@@ -24,352 +26,125 @@
 </header>
 
 <main>
-    <section class="preg1">
-        <div class="contenedor">
-            <h2 class="pregunta">¿Quién fue el máximo goleador del mundial?</h2>
-            <div>
-                <a href="#caja1_1" class="boton">
-                    Lionel Messi
-                </a>
-                <a href="#caja1_2" class="boton">
-                    Neymar JR
-                </a>
-                <a href="#caja1_3" class="boton">
-                    Cristiano Ronaldo
-                </a>
-                <a href="#caja1_4" class="boton">
-                    Kylian Mbappé
-                </a>
-            </div>
+    <section class="preguntas">
+        <div class="pregunta1">
 
-            <div class="caja" id="caja1_1">
-                <div class="caja_interior">
-                    <h3>Lionel Messi</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta2" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            ¿Quién fue el máximo goleador del mundial?
+            <br>
+            <label for="preg1_1">
+                <input type="radio" id="preg1_1" name="1" value="incorrecta"> Lionel Messi <br>
+            </label>
 
-            <div class="caja" id="caja1_2">
-                <div class="caja_interior">
-                    <h3>Neymar</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta2" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg1_2"></label>
+            <input type="radio" id="preg1_2" name="1" value="incorrecta"> Neymar Jr <br>
 
-            <div class="caja" id="caja1_3">
-                <div class="caja_interior">
-                    <h3>Cristiano Ronaldo</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta2" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg1_3"></label>
+            <input type="radio" id="preg1_3" name="1" value="incorrecta"> Cristiano Ronaldo <br>
 
-            <div class="caja" id="caja1_4">
-                <div class="caja_interior">
-                    <h3>Kylian Mbappé </h3>
-                    <p>
-                        Respuesta Correcta!
-                    </p>
-                    <a href="#pregunta2" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg1_4"></label>
+            <input type="radio" id="preg1_4" name="1" value="correcta"> Kylian Mbappé <br>
+
         </div>
 
-    </section>
-    <section class="preg2" id="pregunta2">
-        <div class="contenedor">
-            <h2 class="pregunta">¿Cuál fue el partido con más goles del mundial?</h2>
-            <div>
-                <a href="#caja2_1" class="boton">
-                    Inglaterra - Irán
-                </a>
-                <a href="#caja2_2" class="boton">
-                    Argentina - Francia
-                </a>
-                <a href="#caja2_3" class="boton">
-                    Portugal - Suiza
-                </a>
-                <a href="#caja2_4" class="boton">
-                    España - Costa Rica
-                </a>
-            </div>
-            <div class="caja" id="caja2_1">
-                <div class="caja_interior">
-                    <h3>Inglaterra - Irán</h3>
-                    <p>
-                        Respuesta correcta!
-                    </p>
+        <div class="pregunta1">
+            ¿Cuál fue el partido con más goles del mundial? <br>
 
-                    <a href="#pregunta3" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg2_1">
+                <input type="radio" id="preg2_1" name="2" value="correcta"> Inglaterra - Irán <br>
+            </label>
 
-            <div class="caja" id="caja2_2">
-                <div class="caja_interior">
-                    <h3>Argentina - Francia</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta3" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg2_2">
+                <input type="radio" id="preg2_2" name="2" value="incorrecta"> Argentina - Francia <br>
+            </label>
 
-            <div class="caja" id="caja2_3">
-                <div class="caja_interior">
-                    <h3>Portugal - Suiza</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta3" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg2_3">
+                <input type="radio" id="preg2_3" name="2" value="incorrecta"> Portugal - Suiza <br>
+            </label>
+            <label for="preg2_4">
+                <input type="radio" id="preg2_4" name="2" value="incorrecta"> España - Costa Rica
 
-            <div class="caja" id="caja2_4">
-                <div class="caja_interior">
-                    <h3>España - Costa Rica</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta3" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            </label>
+            <br>
+
+
         </div>
-    </section>
-    <section class="preg3" id="pregunta3">
-        <div class="contenedor">
-            <h2 class="pregunta">¿Cuál fue el total de goles convertidos a lo largo de todo el mundial?</h2>
-            <div>
-                <a href="#caja3_1" class="boton">
-                    180
-                </a>
-                <a href="#caja3_2" class="boton">
-                    206
-                </a>
-                <a href="#caja3_3" class="boton">
-                    172
-                </a>
-                <a href="#caja3_4" class="boton">
-                    141
-                </a>
-            </div>
-            <div class="caja" id="caja3_1">
-                <div class="caja_interior">
-                    <h3>180</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
 
-                    <a href="#pregunta4" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+        <div class="pregunta1">
+            ¿Cuál fue el total de goles convertidos a lo largo de todo el mundial?
+            <br>
 
-            <div class="caja" id="caja3_2">
-                <div class="caja_interior">
-                    <h3>206</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta4" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg3_1">
+                <input type="radio" id="preg3_1" name="3" value="incorrecta"> 180 <br>
+            </label>
 
-            <div class="caja" id="caja3_3">
-                <div class="caja_interior">
-                    <h3>172</h3>
-                    <p>
-                        Respuesta correcta!
-                    </p>
-                    <a href="#pregunta4" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg3_2">
+                <input type="radio" id="preg3_2" name="3" value="correcta"> 206 <br>
+            </label>
 
-            <div class="caja" id="caja3_4">
-                <div class="caja_interior">
-                    <h3>141</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta4" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg3_3">
+                <input type="radio" id="preg3_3" name="3" value="incorrecta"> 172 <br>
+            </label>
+
+
+            <label for="preg3_4">
+                <input type="radio" id="preg3_4" name="3" value="incorrecta"> 141 <br>
+            </label>
+
         </div>
-    </section>
-    <section class="preg4" id="pregunta4">
-        <div class="contenedor">
-            <h2 class="pregunta">¿Cuál de estos jugadores no disputó la competencia?</h2>
-            <div>
-                <a href="#caja4_1" class="boton">
-                    Erling Haaland
-                </a>
-                <a href="#caja4_2" class="boton">
-                    Arturo Vidal
-                </a>
-                <a href="#caja4_3" class="boton">
-                    Todas son correctas
-                </a>
-                <a href="#caja4_4" class="boton">
-                    Mohamed Salah
-                </a>
-            </div>
-            <div class="caja" id="caja4_1">
-                <div class="caja_interior">
-                    <h3>Erling Haaland</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta5" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
 
-            <div class="caja" id="caja4_2">
-                <div class="caja_interior">
-                    <h3>Arturo Vidal</h3>
-                    <p>
-                        Respuesta inorrecta!
-                    </p>
-                    <a href="#pregunta5" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+        <div class="pregunta1">
+            ¿Cuál de estos jugadores no disputó la competencia?
+            <br>
 
-            <div class="caja" id="caja4_3">
-                <div class="caja_interior">
-                    <h3>Todas son correctas</h3>
-                    <p>
-                        Respuesta Correcta!
-                    </p>
-                    <a href="#pregunta5" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg4_1">
+                <input type="radio" id="preg4_1" name="4" value="incorrecta"> Erling Haaland <br>
+            </label>
 
-            <div class="caja" id="caja4_4">
-                <div class="caja_interior">
-                    <h3>Mohamed Salah</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="#pregunta5" class="boton">
-                        Siguiente Pregunta
-                    </a>
-                </div>
-            </div>
+            <label for="preg4_2">
+                <input type="radio" id="preg4_2" name="4" value="correcta"> Arturo Vidal <br>
+            </label>
+
+            <label for="preg4_3">
+                <input type="radio" id="preg4_3" name="4" value="incorrecta"> Todas son correctas <br>
+            </label>
+
+
+            <label for="preg4_4">
+                <input type="radio" id="preg4_4" name="4" value="incorrecta"> Mohamed Salah <br>
+            </label>
+
         </div>
-    </section>
-    <section class="preg5" id="pregunta5">
-        <div class="contenedor">
-            <h2 class="pregunta">¿Qué jugador argentino ganó el premio de "Golden Boy"?</h2>
-            <div>
-                <a href="#caja5_1" class="boton">
-                    Julián Álvarez
-                </a>
-                <a href="#caja5_2" class="boton">
-                    Enzo Fernández
-                </a>
-                <a href="#caja5_3" class="boton">
-                    Alexis Mac Allister
-                </a>
-                <a href="#caja5_4" class="boton">
-                    Nahuel Molina
-                </a>
-            </div>
-            <div class="caja" id="caja5_1">
-                <div class="caja_interior">
-                    <h3>Julián Álvarez</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="temas.html" class="boton">
-                        Elegir otra categoría
-                    </a>
-                    <a href="#" class="boton">
-                        Comenzar de vuelta
-                    </a>
-                </div>
-            </div>
 
-            <div class="caja" id="caja5_2">
-                <div class="caja_interior">
-                    <h3>Enzo Fernández</h3>
-                    <p>
-                        Respuesta Correcta!
-                    </p>
-                    <a href="temas.html" class="boton">
-                        Elegir otra categoría
-                    </a>
-                    <a href="#" class="boton">
-                        Comenzar de vuelta
-                    </a>
-                </div>
-            </div>
+        <div class="pregunta1">
+            ¿Qué jugador argentino ganó el premio de "Golden Boy"?
+            <br>
 
-            <div class="caja" id="caja5_3">
-                <div class="caja_interior">
-                    <h3>Alexis Mac Allister</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="temas.html" class="boton">
-                        Elegir otra categoría
-                    </a>
-                    <a href="#" class="boton">
-                        Comenzar de vuelta
-                    </a>
-                </div>
-            </div>
+            <label for="preg5_1">
+                <input type="radio" id="preg5_1" name="5" value="incorrecta"> Julián Álvarez <br>
+            </label>
 
-            <div class="caja" id="caja5_4">
-                <div class="caja_interior">
-                    <h3>Nahuel Molina</h3>
-                    <p>
-                        Respuesta incorrecta!
-                    </p>
-                    <a href="temas.html" class="boton">
-                        Elegir otra categoría
-                    </a>
-                    <a href="#" class="boton">
-                        Comenzar de vuelta
-                    </a>
-                </div>
-            </div>
+            <label for="preg5_2">
+                <input type="radio" id="preg5_2" name="5" value="correcta"> Enzo Fernández <br>
+            </label>
+
+            <label for="preg5_3">
+                <input type="radio" id="preg5_3" name="5" value="incorrecta"> Alexis Mac Allister <br>
+            </label>
+
+            <label for="preg5_4">
+                <input type="radio" id="preg5_4" name="5" value="incorrecta"> Nahuel Molina <br>
+            </label>
+
         </div>
+
+        <button class="boton" onclick="cantidadCorrectas4()"> Corregir</button>
+        <form action="temas.html">
+            <button class="boton">Volver</button>
+        </form>
+
     </section>
 </main>
+
+
 </body>
 </html>

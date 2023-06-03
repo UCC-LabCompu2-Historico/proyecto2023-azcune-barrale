@@ -15,6 +15,15 @@ h1 {
     font-size: 46px;
 }
 
+.pregunta1{
+    margin: 0 auto;
+    width: 800px;
+    border:2px solid #ff0000;
+    border-radius: 5%;
+    padding: 10px;
+
+}
+
 .boton {
     display: inline-block;
     padding: 12px 16px;
