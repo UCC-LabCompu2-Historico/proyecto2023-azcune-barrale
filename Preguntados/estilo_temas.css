@@ -38,7 +38,7 @@ header nav {
     z-index: 1;
 }
 
-#botones {
+.botones {
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
@@ -116,7 +116,7 @@ form {
     text-align: center;
 }
 
-#botones:hover {
+.botones:hover {
     background-color: #E9C46A;
     cursor: pointer;
 }
