@@ -1,8 +1,7 @@
 /**
  * Descripción Función que al pasar el mouse por el canvas muestra un mensaje.
  * @method  textoCanvas
- * @param {string} ParámetroA - Explicación de que valor almacena ParámetroA
- * @param {number} ParámetroB - Explicación de que valor almacena ParámetroB
+
  * @return  no retorna ningún valor.
  */
 let textoCanvas = () => {
@@ -16,13 +15,32 @@ let textoCanvas = () => {
 /**
  * La función cuenta la cantidad de respuestas correctas (hay 4 funciones, 1 para cada tema)
  * @method cantidadCorrectas
- * @param {string} ParámetroA - Explicación de que valor almacena ParámetroA
- * @param {number} ParámetroB - Explicación de que valor almacena ParámetroB
  * @return returna let cantidad
  */
 
 let cantidadCorrectas = () => {
-    let p1, p2, p3, p4, p5, cantidad;
+    let p1, p2, p3, p4, p5, cantidad, respuestas;
+
+
+    respuestas = 0;
+
+    for (var i = 0; i < document.pregun1.a1.length; i++) {
+        if (document.pregun1.a1[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a2[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a3[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a4[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a5[i].checked) {
+            respuestas = respuestas + 1;
+        }
+    }
 
     if (document.getElementById('preg1_2').checked == true) {
         p1 = 1;
@@ -52,20 +70,45 @@ let cantidadCorrectas = () => {
 
 
     cantidad = p1 + p2 + p3 + p4 + p5;
-    alert('cantidad de aciertos: ' + cantidad);
-    window.location = 'hist_mundial.html';
+    if (respuestas == 5) {
+        alert('cantidad de aciertos: ' + cantidad);
+        window.location = 'hist_mundial.html';
+    } else {
+        alert('cantidad de aciertos: ' + cantidad + '\n' + 'Sin embargo, te faltó responder algunas preguntas!');
+    }
+
 }
 
 /**
  * La función cuenta la cantidad de respuestas correctas (hay 4 funciones, 1 para cada tema)
  * @method cantidadCorrectas2
- * @param {string} ParámetroA - Explicación de que valor almacena ParámetroA
- * @param {number} ParámetroB - Explicación de que valor almacena ParámetroB
  * @return returna let cantidad
  */
 
 let cantidadCorrectas2 = () => {
-    let p1, p2, p3, p4, p5, cantidad;
+    let p1, p2, p3, p4, p5, cantidad, respuestas;
+
+    respuestas = 0;
+
+    for (var i = 0; i < document.pregun1.a1.length; i++) {
+        if (document.pregun1.a1[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a2[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (i < 2) {
+            if (document.pregun1.a3[i].checked) {
+                respuestas = respuestas + 1;
+            }
+        }
+        if (document.pregun1.a4[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a5[i].checked) {
+            respuestas = respuestas + 1;
+        }
+    }
 
     if (document.getElementById('preg1_1').checked == true) {
         p1 = 1;
@@ -95,19 +138,45 @@ let cantidadCorrectas2 = () => {
 
 
     cantidad = p1 + p2 + p3 + p4 + p5;
-    alert('cantidad de aciertos: ' + cantidad);
-    window.location = 'mexico_86.html';
+
+    if (respuestas === 5) {
+        alert('cantidad de aciertos: ' + cantidad);
+        window.location = 'mexico_86.html';
+    } else {
+        alert('cantidad de aciertos: ' + cantidad + '\n' + 'Sin embargo, te faltó responder algunas preguntas!');
+    }
+
 }
 
 /**
  * La función cuenta la cantidad de respuestas correctas (hay 4 funciones, 1 para cada tema)
  * @method cantidadCorrectas3
- * @param {string} ParámetroA - Explicación de que valor almacena ParámetroA
- * @param {number} ParámetroB - Explicación de que valor almacena ParámetroB
  * @return returna let cantidad
  */
 let cantidadCorrectas3 = () => {
-    let p1, p2, p3, p4, p5, cantidad;
+    let p1, p2, p3, p4, p5, cantidad, respuestas;
+    respuestas = 0;
+
+    for (var i = 0; i < document.pregun1.a2.length; i++) {
+        if (i < 2) {
+            if (document.pregun1.a1[i].checked) {
+                respuestas = respuestas + 1;
+            }
+        }
+        if (document.pregun1.a2[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a3[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a4[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a5[i].checked) {
+            respuestas = respuestas + 1;
+        }
+    }
+
 
     if (document.getElementById('preg1_2').checked == true) {
         p1 = 1;
@@ -137,19 +206,42 @@ let cantidadCorrectas3 = () => {
 
 
     cantidad = p1 + p2 + p3 + p4 + p5;
-    alert('cantidad de aciertos: ' + cantidad);
-    window.location = 'uruguay_30.html';
+    if (respuestas == 5) {
+        alert('cantidad de aciertos: ' + cantidad);
+        window.location = 'uruguay_30.html';
+    } else {
+        alert('cantidad de aciertos: ' + cantidad + '\n' + 'Sin embargo, te faltó responder algunas preguntas!');
+
+    }
 }
 
 /**
  * La función cuenta la cantidad de respuestas correctas (hay 4 funciones, 1 para cada tema)
  * @method cantidadCorrectas4
- * @param {string} ParámetroA - Explicación de que valor almacena ParámetroA
- * @param {number} ParámetroB - Explicación de que valor almacena ParámetroB
  * @return returna let cantidad
  */
 let cantidadCorrectas4 = () => {
-    let p1, p2, p3, p4, p5, cantidad;
+    let p1, p2, p3, p4, p5, cantidad, respuestas;
+
+    respuestas = 0;
+
+    for (var i = 0; i < document.pregun1.a1.length; i++) {
+        if (document.pregun1.a1[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a2[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a3[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a4[i].checked) {
+            respuestas = respuestas + 1;
+        }
+        if (document.pregun1.a5[i].checked) {
+            respuestas = respuestas + 1;
+        }
+    }
 
     if (document.getElementById('preg1_4').checked == true) {
         p1 = 1;
@@ -179,6 +271,21 @@ let cantidadCorrectas4 = () => {
 
 
     cantidad = p1 + p2 + p3 + p4 + p5;
-    alert('cantidad de aciertos: ' + cantidad);
-    window.location = 'qatar_22.html';
+    if (respuestas == 5) {
+        alert('cantidad de aciertos: ' + cantidad);
+        window.location = 'qatar_22.html';
+    } else {
+        alert('cantidad de aciertos: ' + cantidad + '\n' + 'Sin embargo, te faltó responder algunas preguntas!');
+    }
+}
+
+/**
+ * Función que muestra una alerta si presionas el botón "VOLVER", diciendo que las respuestas no se guardaran.
+ * @method volver
+ * @return no retorna ningun valor
+ */
+let volver = () => {
+    if (document.getElementById("cartelVolver").checked = true) {
+        alert('Se le recuerda que al volver a la página anterior, el progreso del juego se perderá al igual que las respuestas.');
+    }
 }

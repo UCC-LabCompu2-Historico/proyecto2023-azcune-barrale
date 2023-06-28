@@ -1,8 +1,6 @@
 /**
  * Descripción  La función comprueba si ingresaste algún valor al input
  * @method  validarFormulario
- * @param {string} ParámetroA - almacena un evento que se activa al cargarse la página, luego va a activarse otro evento cuando la página envíe el formulario.
- * @param {number} ParámetroB - Explicación de que valor almacena ParámetroB
  * @return si se valida el formulario, se envia el valor del input
  */
 
