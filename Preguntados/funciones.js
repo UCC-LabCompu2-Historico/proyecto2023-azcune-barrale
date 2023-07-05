@@ -1,4 +1,3 @@
-
 /**
  * La función cuenta la cantidad de respuestas correctas (hay 4 funciones, 1 para cada tema)
  * @method cantidadCorrectas

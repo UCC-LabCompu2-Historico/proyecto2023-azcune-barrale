@@ -93,6 +93,8 @@ form {
 }
 
 #canvas1 {
+    width: 800px;
+    height: 500px;
     background-color: #1e7c72;
 }
 
