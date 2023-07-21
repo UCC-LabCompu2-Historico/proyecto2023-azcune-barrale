@@ -26,7 +26,7 @@ Al seleccionar una opción, te lleva a una pestaña en la cual te aparecen una s
 
 Link de Git Hub Pages:
 
-[Trivia Mundialista](https://ucc-labcompu2.github.io/proyecto2023-azcune-barrale/Preguntados/index.html)
+[Trivia Mundialista](https://ucc-labcompu2-historico.github.io/proyecto2023-azcune-barrale/Preguntados/index.html)
 
 
 ---
